@@ -1,0 +1,144 @@
+header {
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+    body{
+        background-color:  hsl(207, 100%, 98%);
+        
+            font-family: 'Open Sans', sans-serif; /* Aplica a fonte Open Sans ao corpo do texto */
+    
+        
+    }
+
+.logo {
+    height: 20px;
+    padding: 20px;
+    padding-left: 40px;
+}
+
+.primeiro-botao {
+    margin-right: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 5px 15px;
+    border:1px solid  deeppink;
+    color: hsl(322, 100%, 66%);
+    background-color: hsla(321, 100%, 78%, 0.155);
+}
+
+main {
+    text-align: center;
+    margin: auto;
+
+
+}
+main h1 {
+    margin: auto;
+}
+
+main p {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+main button {
+    padding: 10px;
+    border-radius: 20px;
+    padding: 10px 35px;
+    margin-bottom: 30px;
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    color: white;
+
+}
+
+.img {
+    display: flex;
+}
+
+.img .grande {
+    margin: auto;
+    height: auto;
+    max-width: 90%;
+
+
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.links div{
+    font-size: 30px;
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+}
+.links div img{
+    height: 30px;
+    
+}
+.links div p{
+    font-size: 16px;
+    
+}.links div h1{
+    height: 40px;
+    margin-top: 0px;
+    
+}
+.texto2{
+    display: flex;
+    justify-content:space-around ;
+    background-color: rgba(151, 239, 239, 0.253);
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    margin-left: -9px;
+}
+.texto2 span {
+    margin: auto;
+    padding-left: auto;
+    width: 50%;
+    height: auto;
+    
+    
+}
+.texto2 img{
+    height: auto;
+    margin: auto;
+    max-width: 40%;
+
+}
+.texto2 p {
+    width: 50%;
+    text-align: center;
+    
+}
+.borda{
+    position: absolute;
+    min-width: 100%;
+    margin: auto;
+    padding: auto;
+    left: 0px;
+    right: -30px;
+
+
+}
+.borda-2{
+    position: absolute;
+    min-width: 100%;
+    margin: auto;
+    padding: auto;
+    height: 100vh;
+    width: auto;
+    
+    top: 111.5em;
+    right: -15px;
+    
+    
+}
